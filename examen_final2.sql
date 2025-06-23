@@ -88,6 +88,6 @@ id serial primary key,
 fid_statie int not null, 
 fid_trasee int not null,
 foreign key(fid_statie) references statie(fid),
-foreign key(fid_trasee) references trasee(id)
+foreign key(fid_trasee) references trasee(fid)
 );
 
